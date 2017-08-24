@@ -24,6 +24,6 @@ Add dependencies to app level build.gradle
      provided 'org.glassfish:javax.annotation:10.0-b28'
      
      
-And Now check code to see how to implement Dagger2 with RxKotlin and Retrofit2
+And Now check code to see how to implement Dagger2 with RxKotlin/RxJava/RxAndroid and Retrofit2
 
 All the best !!!!!!
