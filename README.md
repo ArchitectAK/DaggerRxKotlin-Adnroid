@@ -1,5 +1,6 @@
 # Dagger2Retrofit2RxKotlinRxAndroidApplication
-An Example to demonstrate the use of Dagger2 with RxKotlin with Retrofit2 in Android
+
+A Kotlin project to demonstrate the use of Dagger2 with RxKotlin with Retrofit2 in Android
 
 Apply plugins to app level build.gradle 
     
