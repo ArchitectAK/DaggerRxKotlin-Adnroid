@@ -1,4 +1,4 @@
-# Dagger2Retrofit2RxKotlinRxAndroidApplication
+# Kotlin Dagger2 Android Project
 
 A Kotlin project to demonstrate the use of Dagger2 with RxKotlin with Retrofit2 in Android
 
