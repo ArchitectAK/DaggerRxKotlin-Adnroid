@@ -5,6 +5,12 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:pointerIcon="arrow" />
+
     <ImageView
         android:id="@+id/avatar"
         android:layout_width="100dp"
@@ -33,4 +39,44 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/repos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/stars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/blog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Blog"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Github"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark" />
+
+
 </LinearLayout>

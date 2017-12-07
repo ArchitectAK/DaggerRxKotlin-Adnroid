@@ -1,6 +1,8 @@
 package com.freeankit.dagger2retrofit2rxkotlinrxandroidapplication.ui
 
 import android.annotation.SuppressLint
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.util.Log
@@ -47,9 +49,23 @@ class MainFragment : Fragment() {
                 .subscribe(
                         { abc ->
                             run {
+                                progress.visibility = View.GONE
                                 name.text = abc.name
                                 bio.text = abc.bio
-                                followers.text = abc.public_repos + " Repositories"
+                                followers.text = abc.followers + " Followers"
+                                repos.text = abc.public_repos + " Repositories"
+                                following.text = abc.following + " Following"
+                                stars.text = abc.location
+                                open.setOnClickListener {
+                                    val i = Intent(Intent.ACTION_VIEW)
+                                    i.data = Uri.parse(abc.html_url)
+                                    context.startActivity(i)
+                                }
+                                blog.setOnClickListener {
+                                    val i = Intent(Intent.ACTION_VIEW)
+                                    i.data = Uri.parse(abc.blog)
+                                    context.startActivity(i)
+                                }
                                 Glide.with(context).load(abc.avatar_url)
                                         .apply(RequestOptions().centerCrop()
                                                 .placeholder(R.drawable.ic_launcher_background)
