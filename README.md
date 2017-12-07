@@ -2,6 +2,17 @@
 
 A Kotlin project to demonstrate the use of Dagger2 with RxKotlin with Retrofit2 in Android
 
+
+### Libraries Used
+
+
+1. [Dagger](http://square.github.io/dagger/)
+2. [Retrofit](http://square.github.io/retrofit/)
+3. [OkHttp](http://square.github.io/okhttp/)
+4. [Rx](http://square.github.io/retrofit/)
+5. [Blur](https://bintray.com/ankitdroiddeveloper/FreeBlurEffect)
+
+
 Apply plugins to app level build.gradle 
     
       apply plugin: 'com.android.application'
@@ -28,3 +39,22 @@ Add dependencies to app level build.gradle
 And Now check code to see how to implement Dagger2 with RxKotlin/RxJava/RxAndroid and Retrofit2
 
 All the best !!!!!!
+
+### License
+
+    Copyright 2017 Thomas Kioko
+    
+    
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+    
+    
