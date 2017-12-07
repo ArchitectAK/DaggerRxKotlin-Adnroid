@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="20dp">
 
     <ProgressBar
         android:id="@+id/progress"
@@ -19,8 +20,11 @@
 
     <TextView
         android:id="@+id/name"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
         android:padding="10dp"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="30sp"
@@ -28,55 +32,81 @@
 
     <TextView
         android:id="@+id/bio"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
         android:padding="10dp"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/followers"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
         android:padding="10dp"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/repos"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
         android:padding="10dp"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/stars"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
         android:padding="10dp"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/following"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
         android:padding="10dp"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/blog"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:gravity="center"
         android:padding="10dp"
         android:text="Blog"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/open"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:gravity="center"
         android:padding="10dp"
         android:text="Github"
         android:textAllCaps="false"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
 
 
 </LinearLayout>
