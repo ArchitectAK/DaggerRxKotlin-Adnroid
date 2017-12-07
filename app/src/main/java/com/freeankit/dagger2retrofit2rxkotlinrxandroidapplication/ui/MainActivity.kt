@@ -17,4 +17,18 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setDisplayShowTitleEnabled(false);
         toolbar.setBackgroundColor(resources.getColor(R.color.colorAccent));
     }
+
+    fun fibonacci() {
+        val febCount = 15
+        val feb = IntArray(febCount)
+        feb[0] = 0
+        feb[1] = 1
+        for (i in 2 until febCount) {
+            feb[i] = feb[i - 1] + feb[i - 2]
+        }
+
+        for (i in 0 until febCount) {
+            print(feb[i].toString() + " ")
+        }
+    }
 }
