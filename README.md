@@ -38,9 +38,20 @@ Add dependencies to app level build.gradle
      
 And Now check code to see how to implement Dagger2 with RxKotlin/RxJava/RxAndroid and Retrofit2
 
-[Leanr More about Kotlin ](https://github.com/AnkitDroidGit/Dagger2Retrofit2RxKotlinRxAndroidApplication/blob/master/learnKotlin.md)
+[Leanr More about Kotlin here](https://github.com/AnkitDroidGit/Dagger2Retrofit2RxKotlinRxAndroidApplication/blob/master/learnKotlin.md)
+
+[Learn more about RxJava/RxKotlin here](https://github.com/AnkitDroidGit/RxJava-RxKotlin-Android-Samples)
 
 All the best !!!!!!
+
+
+### Contact - Let's connect to each other
+- [Twitter](https://twitter.com/KumarAnkitRKE)
+- [Github](https://github.com/AnkitDroidGit)
+- [LinkedIn](https://www.linkedin.com/in/kumarankitkumar/)
+- [Facebook](https://www.facebook.com/freeankit)
+- [Slack](https://ankitdroid.slack.com)
+
 
 ### License
 
