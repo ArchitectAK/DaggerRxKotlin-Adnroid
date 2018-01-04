@@ -92,6 +92,17 @@
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="See my app"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <Button
             android:id="@+id/blog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

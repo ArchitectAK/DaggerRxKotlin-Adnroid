@@ -14,6 +14,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.freeankit.dagger2retrofit2rxkotlinrxandroidapplication.AppAnkit
 import com.freeankit.dagger2retrofit2rxkotlinrxandroidapplication.R
 import com.freeankit.dagger2retrofit2rxkotlinrxandroidapplication.network.IRetrofit
+import com.freeankit.dagger2retrofit2rxkotlinrxandroidapplication.utils.Constants
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.fragment_main.*
@@ -33,12 +34,12 @@ class MainFragment : Fragment() {
     }
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View {
-        val view = inflater!!.inflate(R.layout.fragment_main, container, false)
-//        view.findViewById<TextView>(R.id.name)?.setOnClickListener({
-//            startActivity(Intent(context, LoginActivity::class.java))
-//        })
+        return inflater!!.inflate(R.layout.fragment_main, container, false)
+    }
+
+    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         requestUser()
-        return view
     }
 
     @SuppressLint("SetTextI18n")
@@ -59,6 +60,11 @@ class MainFragment : Fragment() {
                                 open.setOnClickListener {
                                     val i = Intent(Intent.ACTION_VIEW)
                                     i.data = Uri.parse(abc.html_url)
+                                    context.startActivity(i)
+                                }
+                                app.setOnClickListener {
+                                    val i = Intent(Intent.ACTION_VIEW)
+                                    i.data = Uri.parse(Constants.APP_URL)
                                     context.startActivity(i)
                                 }
                                 blog.setOnClickListener {

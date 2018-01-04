@@ -7,5 +7,6 @@ package com.freeankit.dagger2retrofit2rxkotlinrxandroidapplication.utils
 class Constants {
     companion object {
         val BASE_URL: String = "https://api.github.com/"
+        val APP_URL = "https://play.google.com/store/apps/details?id=com.freeankit.ankitprofile&hl=en"
     }
 }
