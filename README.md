@@ -45,7 +45,7 @@ And Now check code to see how to implement Dagger2 with RxKotlin/RxJava/RxAndroi
 All the best !!!!!!
 
 
-### Contact - Let's connect to each other
+### Contact - Let's connect to learn together
 - [Twitter](https://twitter.com/KumarAnkitRKE)
 - [Github](https://github.com/AnkitDroidGit)
 - [LinkedIn](https://www.linkedin.com/in/kumarankitkumar/)
